@@ -2,7 +2,7 @@
 import express from "express"
 import dotenv from "dotenv"
 import authRoutes from "./routes/auth.route.js"
-import messageRoutes from "./routes/auth.route.js"
+import messageRoutes from "./routes/message.route.js"
 import path from "path";
 import { connectDB } from "../lib/db.js";
 import cookieParser from "cookie-parser"
